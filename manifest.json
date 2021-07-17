@@ -1,0 +1,13 @@
+{
+"name":"Google Apps Script Dark Mode",
+"description":"Dark Mode For Google Apps Script Editor",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["https://script.google.com/home/projects/*/edit"],
+      "js": ["myscript.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
