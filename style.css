@@ -178,3 +178,9 @@ body{
 	color:white !important;
 	background-color: white !important;
 }
+.monaco-editor .lines-content .cslr {
+    position: absolute;
+    z-index: 5;
+    opacity:.5;
+}
+
